@@ -1,6 +1,7 @@
 <div class="movies">
   <h2>
     Movies: Are Really Cool!!!
+    This is the most amazing thing you've ever seen
   </h2>
   <app-display-movie *ngFor="let movie of movies" [movie]="movie" (movieDeleted)="onMovieDeleted($event)" (movieViewed)="onMovieViewed($event)">
   </app-display-movie>
